@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nrupul"
+        android:layout_width="138dp"
+        android:layout_height="55dp"
+        android:background="#DE1717"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Nrupul"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dev"
+        android:layout_width="138dp"
+        android:layout_height="55dp"
+        android:text="Dev"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textStyle="bold"
+        android:background="#0E0481"
+        />
+
+    <TextView
+        android:id="@+id/prateek"
+        android:layout_width="138dp"
+        android:layout_height="55dp"
+        android:text="Prateek"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="130dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textStyle="bold"
+        android:background="#B4A311"
+        />
+
+    <TextView
+        android:id="@+id/aman"
+        android:layout_width="138dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_vertical"
+        android:background="#920495"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Aman"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rahul"
+        android:layout_width="138dp"
+        android:layout_height="55dp"
+        android:background="#0E0481"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Rahul"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_gravity="right"
+        android:textStyle="bold" />
+
+</LinearLayout>
